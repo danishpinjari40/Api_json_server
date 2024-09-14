@@ -4,22 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danishpinjari40/Api_json_server.git"
-  },
-  "author": "Danish pinjari",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danishpinjari40/Api_json_server/issues"
-  },
-  "homepage": "https://github.com/danishpinjari40/Api_json_server#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-beta.2"
+    "json-server": "^1.0.0-beta.2",
+    "nodemon": "^3.1.4"
   }
 }
